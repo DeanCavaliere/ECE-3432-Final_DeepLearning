@@ -1,7 +1,22 @@
 # ECE-3432-Final_DeepLearning
  
+ This is modifed code to train and test deep learning models. The key differences in my code to the original repo code is listed below. 
 
- Modifed code to train and test deep learning code. 
+ This repo was created to document and show off the final project for ECE-3432 (Robotic Control using RASPI). The goal of the project was to achieve a mean squared loss (MSELoss) of below 0.7 while also improving the overall accuracy of the model within a margin of 2. WThe purpose of this is to generate a model that can accurately predict the optimal servo motor value to send to keep an RC car on a path. The end results were that we achieved a loss of 0.210 and an accuracy of 93.53%.
+ 
+ Shown below is the layer features that were utilized in this project. We wanted to reduce the overall amount of layers to improve the speed of predicitons once the model is loaded onto the raspberry pi.
+
+![Image](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/ModelFeatures.PNG)
+
+Next, we have the test information which consists of some runtimes and the overall value of loss.
+
+![Testing](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/ModelTestInfo.PNG)
+
+
+Lastly, we have the accuracy test which runs our model to generate an predicted output that is then cross referenced to the actual output. For this particular test, an error margin of 2 is used.
+
+![Accuracy](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/accuracyTest.PNG)
+
 
 
  ## What has changed in this repo compared to the original?
