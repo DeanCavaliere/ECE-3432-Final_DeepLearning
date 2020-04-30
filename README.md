@@ -6,16 +6,16 @@
  
  Shown below is the layer features that were utilized in this project. We wanted to reduce the overall amount of layers to improve the speed of predicitons once the model is loaded onto the raspberry pi.
 
-![Image](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/ModelFeatures.PNG)
+![Image](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/Training_1/ModelLayers.PNG)
 
 Next, we have the test information which consists of some runtimes and the overall value of loss.
 
-![Testing](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/ModelTestInfo.PNG)
+![Testing](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/Training_1/ModelTestData.PNG)
 
 
 Lastly, we have the accuracy test which runs our model to generate an predicted output that is then cross referenced to the actual output. For this particular test, an error margin of 2 is used.
 
-![Accuracy](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/accuracyTest.PNG)
+![Accuracy](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/Training_1/AccuracyTest.PNG)
 
 
 
