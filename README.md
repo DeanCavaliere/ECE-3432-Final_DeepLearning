@@ -45,6 +45,8 @@ Lastly, we have the accuracy test which runs our model to generate an predicted 
  
  ![Install](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/Results/Installation/InstallTorch_gitClone.PNG)
  
+ This repo contains all the files to train, test, predict, and save/load a model. 
+ 
  To run the prediction script, you must navigate into the project and run the file with python 3, this is shown below.
  ```
   cd ECE-3432-Final_DeepLearning 
