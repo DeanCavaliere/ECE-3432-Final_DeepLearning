@@ -9,7 +9,7 @@
 
     "timeEnable": false,
 
-	"cuda": true,
+	"cuda": false,
     "cudaID": "cuda:0" ,
 	"optimizer": "adam",
 	

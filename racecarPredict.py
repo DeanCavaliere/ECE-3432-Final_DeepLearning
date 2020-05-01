@@ -15,7 +15,7 @@ TestTimeFile = 'TestTimeData_Amd1700CPU.csv'
 #MOTOR_TEST_SETTING = "data/set_motor_test.json"
 #MOTOR_MODEL = 'models/motor_model.pth'
 
-IMAGE_FILE = "data/images/03_12_2020_0/output_0002/i0001053_s17_m17.jpg"
+IMAGE_FILE = "data/images/03_12_2020_0/output_0002/i0000990_s15_m17.jpg"
 
 servo_test = NNTools(SERVO_TEST_SETTING)
 servo_test.load_model(SERVO_MODEL)
