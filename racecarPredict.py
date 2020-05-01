@@ -19,7 +19,7 @@ IMAGE_FILE = "data/images/03_12_2020_0/output_0002/i0001053_s17_m17.jpg"
 
 servo_test = NNTools(SERVO_TEST_SETTING)
 servo_test.load_model(SERVO_MODEL)
-servo_test.test(TEST_DATA, TestTimeFile)
+#servo_test.test(TEST_DATA, TestTimeFile)
 pred_time = time.time()
 servov = servo_test.predict(IMAGE_FILE)
 print("--- Total Prediction Time is %s seconds ---" % (time.time() - pred_time))
