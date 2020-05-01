@@ -82,10 +82,11 @@ Lastly, we have the accuracy test which runs our model to generate an predicted 
  >  cudaID = select what cuda device is being used in-case multiple GPU's are present
  
  - Added a cuda search file 'testForCuda.py'
- >  automatically searches for cuda devices and displays information about the device!
+ >  This automatically searches for cuda devices and displays information about the device!
 
  - Added the 'Loop' folder
  >  'Loop' contains preconfigured files to loop model training! All iterative models are saved and corresponding data is documented in a CSV file.
+ > This simply allows you to loop X times automatically while also saving the model, prediction value, and accuracy value for each loop.
  
  
  
