@@ -48,6 +48,7 @@ Lastly, we have the accuracy test which runs our model to generate an predicted 
  To run the prediction script, you must navigate into the project and run the file with python 3, this is shown below.
  ```
   cd ECE-3432-Final_DeepLearning 
+
   python3 racecarPredict.py
 ```
  The python script is pre-set to run the prediction function for the following randomly chosen image 
@@ -55,7 +56,7 @@ Lastly, we have the accuracy test which runs our model to generate an predicted 
  
  ![predictimage](https://github.com/DeanCavaliere/ECE-3432-Final_DeepLearning/blob/master/data/images/03_12_2020_0/output_0002/i0000990_s15_m17.jpg)
  
- You can change the predicted image by changing the 'IMAGE_FILE' parameter in the racecarPredict.py file.
+ You can change the predicted image by changing the 'IMAGE_FILE= <Path to Image>.jpg' parameter in the racecarPredict.py file.
  
  
  
